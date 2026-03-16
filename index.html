@@ -2,20 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Text Splitter</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Matnlarni bo`lish</title>
+
+    <title>Matnni 1000 ta so‘zga bo‘luvchi bepul vosita</title>
+
+    <meta
+      name="description"
+      content="Katta matnlarni qismlarga bo‘lish uchun bepul onlayn vosita. Referat, maqola va hujjatlarni qulay bo‘lib olish imkoniyati."
+    />
+
+    <meta
+      name="keywords"
+      content="matnni bo‘lish, text splitter, referatni bo‘lish, matn bo‘luvchi vosita"
+    />
+    <meta name="author" content="Ismoil Orzimboyev" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://birlashganuz.github.io/textsplitter/" />
+    <meta property="og:title" content="Katta matnlarni kichik matnlarga bo‘luvchi vosita" />
+
+    <meta
+      property="og:description"
+      content="Katta matnlarni qismlarga tez va oson bo‘lish imkonini beruvchi bepul vosita."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://birlashganuz.github.io/textsplitter/" />
+    <link rel="icon" href="./images/favicon.png">
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <h1>Matnlarni bo`lish</h1>
     <p>Katta matnlarni kichik matnlarga bo`lish</p>
 
-    <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+    <textarea id="inputText" placeholder="Matnni joylashtiring..."></textarea>
 
     <br />
     <input type="number" id="wordLimit" value="1000" />
 
-    <button onclick="splitText()">Split Text</button>
+    <button onclick="splitText()">Matnni bo`lish</button>
 
     <div id="result"></div>
 

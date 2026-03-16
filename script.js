@@ -15,13 +15,12 @@ function splitText() {
     let div = document.createElement("div");
     div.className = "chunk";
 
-    let id = "part" + i;
+    let id = "Part" + i;
 
     div.innerHTML = `
-<h3>Part ${i / limit + 1}</h3>
+<h3>${i / limit + 1} - qism</h3>
 <p id="${id}">${chunk}</p>
-<button class="copyBtn" onclick="copyText('${id}')">Copy</button>
-`;
+<button class="copyBtn" onclick="copyText('${id}')">Nusxalash</button>`;
 
     result.appendChild(div);
   }
@@ -32,5 +31,5 @@ function copyText(id) {
 
   navigator.clipboard.writeText(text);
 
-  alert("Copied!");
+  //   alert("Copied!");
 }

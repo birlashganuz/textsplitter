@@ -10,6 +10,9 @@ textarea {
   height: 200px;
   padding: 10px;
   font-size: 16px;
+  border: 1px solid #CCC;
+  outline: none;
+  border-radius: 6px;
 }
 
 button {
@@ -17,6 +20,9 @@ button {
   font-size: 14px;
   margin: 5px;
   cursor: pointer;
+  border: 1px solid #CCC;
+  outline: none;
+  border-radius: 6px;
 }
 
 .chunk {
@@ -27,6 +33,14 @@ button {
   border-radius: 6px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: left;
+}
+
+#wordLimit {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: 1px solid #CCC;
+  outline: none;
+  border-radius: 6px;
 }
 
 .copyBtn {
